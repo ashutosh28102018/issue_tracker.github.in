@@ -1,5 +1,6 @@
 # Issue Tracker
-Issue Tracker web app
+Issue Tracker web app (Full Stack Frameworks with Django Milestone Project)
+[![Build Status](https://travis-ci.org/jordandaly/issue_tracker.svg?branch=master)](https://travis-ci.org/jordandaly/issue_tracker)
 
 * This is a web application that allow users to create issues, comment on issues, and show the status of an issue (‘to do,’ ‘doing,’ or ‘done’).
 * Issues come in two varieties – ‘bugs’ (fix for free), and ‘features’ (only develop if offered enough money). 
@@ -69,4 +70,14 @@ Manual testing was undertaken for this application and satisfactorily passed. A 
 2. Create Heroku App, Select Postgres add-on, download Heroku CLI toolbelt, login to heroku (Heroku login), git init, connect git to heroku (heroku git remote -a <project>), git add ., git commit, git push heroku master.
 3. `heroku ps:scale web=1`
 4. In heroku app settings set the config vars to add DATABASE_URL, STRIPE API key and secret, AWS key and secret
+
+## Credits
+
+**Jordan Daly** - This project was completed as part of Code Institute’s Mentored Online Full Stack Web Development course in 2018.
+
+### Acknowledgements
+I used the following [blog](https://simpleisbetterthancomplex.com/) for tutorials on various Django topics such as AWS S3 integration, filters, highcharts integration
+
+The Accounts, Cart and Checkout apps are based upon the sample apps from the User Authentication and Authorisation and Ecommerce mini project components of the Full Stack Frameworks with Django module.
+
 
